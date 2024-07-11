@@ -1,0 +1,147 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Good morning",
+        "Good afternoon",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello! How can I assist you with the stock market?",
+        "Hi there! What can I help you with today?",
+        "Good [morning/afternoon/evening]! How can I assist you with your investments?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "farewell",
+      "patterns": [
+        "Goodbye",
+        "See you later",
+        "Until next time",
+        "Bye",
+        "Take care"
+      ],
+      "responses": [
+        "Goodbye! Don't hesitate to come back if you have any more questions.",
+        "See you later! Have a great day.",
+        "Take care! Happy investing."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thank you", "Thanks", "Appreciate it", "Thank you so much"],
+      "responses": [
+        "You're welcome!",
+        "No problem, happy to help.",
+        "Glad I could be of assistance.",
+        "Anytime, let me know if you need further help."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "stock_search",
+      "patterns": [
+        "Can you tell me about [company] stock?",
+        "What do you know about [company] stock?",
+        "How is [company] doing in the stock market?",
+        "Can you give me information on [company] stock?",
+        "What's the current state of [company] stock?"
+      ],
+      "responses": [
+        "Sure, let me check... [company] stock is currently trading at [price]. It has a [change] change from the previous close. Is there anything else you'd like to know?",
+        "Of course! [company] stock is currently trading at [price], with a [change] change from the previous close. Is there anything else you want me to find out?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "market_trend",
+      "patterns": [
+        "How is the stock market doing today?",
+        "What's the state of the stock market?",
+        "Can you give me an overview of the stock market?",
+        "What's the current trend of the stock market?"
+      ],
+      "responses": [
+        "The stock market is currently [up/down] by [percentage]. [Reasons for trend, if applicable.]",
+        "As of now, the stock market is [up/down] [percentage]. [Additional information, if applicable.]"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "investment_advice",
+      "patterns": [
+        "What stocks should I invest in?",
+        "Do you have any investment advice?",
+        "What's a good investment right now?",
+        "Can you recommend any stocks?"
+      ],
+      "responses": [
+        "I'm sorry, I can't provide personalized investment advice. It's best to speak with a financial advisor or do your own research before making any investment decisions.",
+        "I can't give specific investment recommendations, but I can suggest doing research on industries that interest you and looking into companies with strong fundamentals and growth potential.",
+        "It's important to note that investing involves risks and it's best to do your own research .]"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "trend",
+      "patterns": [
+        "What's the trend in the market?",
+        "How is the market doing today?",
+        "What's the current market situation?"
+      ],
+      "responses": [
+        "The market is currently trending upwards/downwards/stagnant.",
+        "The market has been on an upward/downward trend recently.",
+        "The current situation of the market is [insert situation]."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "companies",
+      "patterns": [
+        "Can you suggest some good companies to invest in?",
+        "Which companies are performing well in the market?",
+        "What are the top companies in the market right now?"
+      ],
+      "responses": [
+        "Some good companies to invest in are [insert companies].",
+        "The following companies are currently performing well in the market: [insert companies].",
+        "The top companies in the market right now are [insert companies]."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "stocks",
+      "patterns": [
+        "What are some good stocks to invest in?",
+        "Which stocks are performing well in the market?",
+        "Can you suggest some good stocks to buy?"
+      ],
+      "responses": [
+        "Some good stocks to invest in are [insert stocks].",
+        "The following stocks are currently performing well in the market: [insert stocks].",
+        "Some good stocks to buy right now are [insert stocks]."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "advice",
+      "patterns": [
+        "Do you have any advice for investing in the stock market?",
+        "How can I make good investments in the stock market?",
+        "What's the best way to invest in the stock market?"
+      ],
+      "responses": [
+        "Some advice for investing in the stock market is [insert advice].",
+        "To make good investments in the stock market, [insert advice].",
+        "The best way to invest in the stock market is [insert advice]."
+      ],
+      "context_set": ""
+    }
+  ]
+}
